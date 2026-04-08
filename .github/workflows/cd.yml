@@ -32,7 +32,7 @@ jobs:
         with:
           publish_branch: web    # 推送到这个新分支
           publish_dir: ./dist    # 你的构建输出目录（改这里！）
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT }}
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
 
